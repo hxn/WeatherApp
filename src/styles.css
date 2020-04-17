@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 6px 6px 22px 0px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.resultsBox {
+  padding: 18px;
+  background-color: #b3cfa3;
+}
+
+.resultsBox em {
+  font-size: 11px;
+}
+
+.resultsBox table {
+  background-color: #92b180;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.resultsBox table tbody tr td,
+.resultsBox table tbody tr th {
+  padding: 6px;
+}
+
+.resultsBox table tbody tr th {
+  text-align: right;
+}
+
+.formBox {
+  padding: 18px;
+  background-color: #5e8c43;
+}
